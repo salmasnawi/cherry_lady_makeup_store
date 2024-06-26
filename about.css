@@ -1,0 +1,43 @@
+.pd-y {
+    padding:120px 0;
+}
+.features{
+    text-align: center;
+    height: 350px;
+    overflow: hidden;
+}
+.feature {
+    width: 30%;
+    float: left;
+    text-align: center;
+    border:1px solid  palevioletred;
+    padding: 30px 15px;
+    margin: 0 1.5%;
+    height: 80%;
+
+}
+
+.fh-title {
+    text-transform: capitalize;
+    margin-bottom: 15px;
+    transition: color .5s;
+}
+.about-content p {
+    letter-spacing: 2px;
+    line-height: 22px;
+    margin-bottom: 15px;
+    color:rgb(0, 0, 0);
+}
+.link:hover{
+    color: white;
+
+
+}
+.link {
+    color: rgb(252, 0, 84);
+    text-transform: capitalize;
+}
+.about-item:hover .about-item-title {
+    color: palevioletred;
+    transition: color 1s;
+}
